@@ -1,0 +1,16 @@
+﻿namespace ClinicaDental.Models.Entities
+{
+    public class PasoTratamiento
+    {
+        public int Id { get; set; }
+        public DateTime FechaEstimada { get; set; }
+        public string Estado { get; set; }
+        public string Obervaciones { get; set; }
+        public int PlanTratamientoId { get; set; }
+        public PlanTratamiento PlanTratamiento { get; set; }
+        public int TratamientoId { get; set; }
+        public Tratamiento Tratamiento { get; set; }
+
+
+    }
+}
