@@ -4,13 +4,16 @@
     {
         public int Id { get; set; }
         public string Nombre { get; set; }
-        public string Rut { get; set; }
+        public string RUT { get; set; }
         public string Telefono { get; set; }
-        public string Correo { get; set; }
-
+        public string Email { get; set; }
         public string Direccion { get; set; }
-        
-        public List<Turno> Turnos { get; set; }
-        public List <PlanTratamiento> PlanesTratamiento { get; set; }
+
+        // Relación uno a muchos con Turno (un paciente puede tener muchos turnos)
+        public ICollection<Turno> Turnos { get; set; }
+
+        // Relación uno a muchos con EjecucionTratamiento (un paciente puede tener múltiples tratamientos ejecutados)
+        public ICollection<EjecucionTratamiento> EjecucionesTratamiento { get; set; }
     }
+
 }

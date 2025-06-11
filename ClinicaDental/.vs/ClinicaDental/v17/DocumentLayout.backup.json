@@ -1,12 +1,207 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\pasotratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\pasotratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\plantratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\plantratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\turno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\models\\entities\\tratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\models\\entities\\tratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|c:\\users\\cristobalo.o\\desktop\\prueba-net-2\\clinicadental\\clinicadental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{07F31EF9-8E21-4A4D-B91E-F0044D6EBC05}|ClinicaDental\\ClinicaDental.csproj|solutionrelative:clinicadental\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Odontologo.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Odontologo.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\Odontologo.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Odontologo.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\Odontologo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:36:03.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\Usuario.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Usuario.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:22:40.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PasoTratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\PasoTratamiento.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\PasoTratamiento.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\PasoTratamiento.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\PasoTratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:30:30.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlanTratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\PlanTratamiento.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\PlanTratamiento.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\PlanTratamiento.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\PlanTratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:28:37.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Administrador.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Administrador.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\Administrador.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Administrador.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\Administrador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:21:55.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Turno.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Turno.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\Turno.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Turno.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\Turno.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:45:43.179Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Paciente.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Paciente.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\Paciente.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Paciente.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\Paciente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T23:26:48.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Program.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Program.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Program.cs",
+              "RelativeToolTip": "ClinicaDental\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:46:35.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T21:43:22.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Tratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Tratamiento.cs",
+              "RelativeDocumentMoniker": "ClinicaDental\\Models\\Entities\\Tratamiento.cs",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\Models\\Entities\\Tratamiento.cs",
+              "RelativeToolTip": "ClinicaDental\\Models\\Entities\\Tratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:26:31.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\appsettings.json",
+              "RelativeDocumentMoniker": "ClinicaDental\\appsettings.json",
+              "ToolTip": "C:\\Users\\cristobalO.O\\Desktop\\Prueba-Net-2\\ClinicaDental\\ClinicaDental\\appsettings.json",
+              "RelativeToolTip": "ClinicaDental\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-10T21:41:33.214Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
