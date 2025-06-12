@@ -1,0 +1,41 @@
+-- INSERTAR ROLES
+SET IDENTITY_INSERT Roles ON;
+INSERT INTO Roles (Id, Nombre) VALUES
+(1, 'Paciente'),
+(2, 'Odontologo'),
+(3, 'Administrador'),
+(4, 'Recepcionista');
+SET IDENTITY_INSERT Roles OFF;
+
+-- INSERTAR ADMINISTRADOR
+SET IDENTITY_INSERT Administradores ON;
+INSERT INTO Administradores (Id, Nombre, Email) VALUES
+(1, 'Admin Uno', 'admin@clinica.com');
+SET IDENTITY_INSERT Administradores OFF;
+
+-- INSERTAR ODONTÓLOGO
+SET IDENTITY_INSERT Odontologos ON;
+INSERT INTO Odontologos (Id, Nombre, Matricula, Especialidad, Email, CreadoPorAdministradorId, FechaCreacion) VALUES
+(1, 'Dra. Sonia', 'ODO123', 'Ortodoncia', 'sonia@clinica.com', 1, GETDATE());
+SET IDENTITY_INSERT Odontologos OFF;
+
+-- INSERTAR PACIENTE
+SET IDENTITY_INSERT Pacientes ON;
+INSERT INTO Pacientes (Id, Nombre, RUT, Telefono, Email, Direccion) VALUES
+(1, 'Juan Perez', '12345678-9', '987654321', 'juan@correo.com', 'Calle Falsa 123');
+SET IDENTITY_INSERT Pacientes OFF;
+
+-- INSERTAR RECEPCIONISTA
+SET IDENTITY_INSERT Recepcionistas ON;
+INSERT INTO Recepcionistas (Id, Nombre, Email) VALUES
+(1, 'Clara', 'clara@clinica.com');
+SET IDENTITY_INSERT Recepcionistas OFF;
+
+-- INSERTAR USUARIOS
+SET IDENTITY_INSERT Usuarios ON;
+INSERT INTO Usuarios (Id, NombreUsuario, Contrasena, RolId, AdministradorId, OdontologoId, PacienteId, RecepcionistaId) VALUES
+(1, 'admin1', 'admin123', 3, 1, NULL, NULL, NULL),
+(2, 'odo1', 'odo123', 2, NULL, 1, NULL, NULL),
+(3, 'juanp', 'paciente123', 1, NULL, NULL, 1, NULL),
+(4, 'recep1', 'recep123', 4, NULL, NULL, NULL, 1);
+SET IDENTITY_INSERT Usuarios OFF;
