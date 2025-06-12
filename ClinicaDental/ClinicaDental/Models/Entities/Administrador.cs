@@ -7,10 +7,11 @@
         public string Email { get; set; }
 
         // Relación uno a muchos con Odontologo (un administrador puede crear varios odontólogos)
-        public ICollection<Odontologo> OdontologosCreados { get; set; }
-
+        public ICollection<Odontologo> Odontologos { get; set; }
         // Relación uno a muchos con Tratamiento (un administrador puede crear varios tratamientos)
-        public ICollection<Tratamiento> TratamientosCreados { get; set; }
+        public ICollection<Tratamiento> Tratamientos { get; set; }
+        public Usuario Usuario { get; set; }
+
     }
 
 }

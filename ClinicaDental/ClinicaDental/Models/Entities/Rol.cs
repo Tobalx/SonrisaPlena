@@ -6,7 +6,7 @@
         public string Nombre { get; set; }
 
         // Relación uno a muchos con Usuario (un rol puede estar asociado a varios usuarios)
-        public ICollection<Usuario> Usuarios { get; set; }
+        public List<Usuario> Usuarios { get; set; }
     }
 
 }

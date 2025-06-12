@@ -8,7 +8,7 @@
         public string EstadoPaso { get; set; } //Pendiente,En Progreso, Realizado, Cancelado
         public string ObservacionesTurno { get; set; }
 
-        // Relaciones muchos a uno
+        // Relaciones muchos a uno 
         public Turno Turno { get; set; }
         public EjecucionTratamiento EjecucionTratamiento { get; set; }
     }

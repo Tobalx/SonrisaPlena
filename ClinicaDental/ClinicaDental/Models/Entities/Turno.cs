@@ -18,7 +18,7 @@
         public Recepcionista Recepcionista { get; set; }
 
         // Relación uno a muchos con TratamientoPorTurno (un turno puede tener varios pasos de tratamiento)
-        public ICollection<TratamientoPorTurno> TratamientosPorTurno { get; set; }
+        public List<TratamientoPorTurno> TratamientosPorTurno { get; set; }
     }
 
 }

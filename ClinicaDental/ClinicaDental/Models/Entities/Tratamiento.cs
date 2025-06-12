@@ -11,7 +11,5 @@
         // Relación muchos a uno con Administrador
         public Administrador CreadoPorAdministrador { get; set; }
 
-        // Relación uno a muchos con EjecucionTratamiento
-        public ICollection<EjecucionTratamiento> EjecucionesTratamiento { get; set; }
     }
 }

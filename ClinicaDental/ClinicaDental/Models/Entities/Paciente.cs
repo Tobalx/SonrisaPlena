@@ -10,10 +10,12 @@
         public string Direccion { get; set; }
 
         // Relación uno a muchos con Turno (un paciente puede tener muchos turnos)
-        public ICollection<Turno> Turnos { get; set; }
+        public List<Turno> Turnos { get; set; }
 
         // Relación uno a muchos con EjecucionTratamiento (un paciente puede tener múltiples tratamientos ejecutados)
-        public ICollection<EjecucionTratamiento> EjecucionesTratamiento { get; set; }
+        public List<EjecucionTratamiento> EjecucionesTratamiento { get; set; }
+        public Usuario Usuario { get; set; }
+
     }
 
 }

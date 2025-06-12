@@ -14,10 +14,11 @@
         public Administrador CreadoPorAdministrador { get; set; }
 
         // Relación uno a muchos con Turno (un odontólogo puede tener varios turnos asignados)
-        public ICollection<Turno> Turnos { get; set; }
+        public List<Turno> Turnos { get; set; }
 
         // Relación uno a muchos con EjecucionTratamiento (un odontólogo ejecuta varios tratamientos)
-        public ICollection<EjecucionTratamiento> EjecucionesTratamiento { get; set; }
+        public List<EjecucionTratamiento> EjecucionesTratamiento { get; set; }
+        public Usuario Usuario { get; set; }
     }
 
 }

@@ -14,11 +14,11 @@
         public int? RecepcionistaId { get; set; }
 
         // Relaciones
-        public Rol Rol { get; set; }
         public Paciente Paciente { get; set; }
         public Odontologo Odontologo { get; set; }
         public Administrador Administrador { get; set; }
         public Recepcionista Recepcionista { get; set; }
+        public Rol Rol { get; set; }
     }
 
 }
