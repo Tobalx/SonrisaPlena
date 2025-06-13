@@ -1,41 +1,35 @@
-﻿@model IEnumerable<ClinicaDental.Models.Entities.Administrador>
-
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Panel de Administración";
 }
 
-<h1>Index</h1>
+<h1 class="text-center mb-4">Panel de Administración</h1>
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Nombre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nombre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+        <div class="card h-100 border-primary">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Personal</h5>
+                <p class="card-text">Administra los datos del personal de la clínica, incluyendo odontólogos y administrativos.</p>
+                <a asp-controller="Administradores" asp-action="GestionDePersonal" class="btn btn-primary">Ir a Gestión de Personal</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-success">
+            <div class="card-body">
+                <h5 class="card-title">Gestión de Tratamientos</h5>
+                <p class="card-text">Gestiona los tratamientos disponibles en la clínica, sus precios y descripciones.</p>
+                <a asp-controller="Tratamientos" asp-action="Index" class="btn btn-success">Ir a Gestión de Tratamientos</a>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="card h-100 border-secondary">
+            <div class="card-body">
+                <h5 class="card-title">Configuración del Sistema</h5>
+                <p class="card-text">Accede a opciones de configuración general del sistema y ajustes administrativos.</p>
+                <a asp-controller="Configuracion" asp-action="Index" class="btn btn-secondary">Ir a Configuración</a>
+            </div>
+        </div>
+    </div>
+</div>

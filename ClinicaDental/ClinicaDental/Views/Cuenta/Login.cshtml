@@ -5,7 +5,26 @@
     ViewData["Title"] = "Iniciar Sesión";
 }
 
+<!-- ✅ AÑADE ESTA LÍNEA -->
+<link rel="stylesheet" href="~/css/login.css" />
+
 <h2>Iniciar Sesión</h2>
+<!-- 🔴 Mostrar errores generales -->
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger d-flex align-items-center gap-2 p-3 rounded-3 shadow-sm" role="alert" style="background-color: #f8d7da;">
+        <svg xmlns="http://www.w3.org/2000/svg" class="bi flex-shrink-0" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M8.982 1.566a1.13 1.13 0 0 0-1.964 0L.165 13.233c-.457.778.091 1.767.982 1.767h13.707c.89 0 1.438-.99.982-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1-2.002 0 1 1 0 0 1 2.002 0z"/>
+        </svg>
+        <div>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p class="mb-0">@error.ErrorMessage</p>
+            }
+        </div>
+    </div>
+}
+
 
 <form asp-action="Login" method="post">
     <div class="form-group">

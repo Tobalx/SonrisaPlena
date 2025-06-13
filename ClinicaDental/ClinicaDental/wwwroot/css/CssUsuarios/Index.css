@@ -1,0 +1,54 @@
+﻿/* Botón volver en esquina superior izquierda */
+.volver-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 14px;
+}
+
+/* Título */
+.titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #343a40;
+}
+
+/* Tabla */
+.table {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+    .table th, .table td {
+        vertical-align: middle;
+        text-align: center;
+        padding: 0.75rem;
+    }
+
+/* Botones de acción */
+.btn-sm {
+    padding: 0.35rem 0.6rem;
+    font-size: 0.85rem;
+    border-radius: 6px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .volver-btn {
+        top: 10px;
+        left: 10px;
+    }
+
+    .titulo {
+        font-size: 1.5rem;
+    }
+
+    .btn-sm {
+        margin-bottom: 5px;
+    }
+}

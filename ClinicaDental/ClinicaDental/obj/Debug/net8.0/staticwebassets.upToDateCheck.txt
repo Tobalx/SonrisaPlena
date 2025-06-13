@@ -1,3 +1,10 @@
+wwwroot\css\CssAdministradores\CreateAdministradores.css
+wwwroot\css\CssAdministradores\DeleteAdministrador.css
+wwwroot\css\CssAdministradores\DetailsAdministrador.css
+wwwroot\css\CssAdministradores\EditAdministradores.css
+wwwroot\css\CssAdministradores\GestionDePersonal.css
+wwwroot\css\CssUsuarios\Index.css
+wwwroot\css\login.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js

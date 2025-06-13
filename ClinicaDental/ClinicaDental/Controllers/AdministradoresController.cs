@@ -42,26 +42,44 @@ namespace ClinicaDental.Controllers
 
             return View(administrador);
         }
-
         // GET: Administradores/Create
-        public IActionResult Create()
+        public async Task<IActionResult> Create()
         {
+            ViewBag.Administradores = await _context.Administradores.ToListAsync();
             return View();
         }
 
-        // POST: Administradores/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nombre,Email")] Administrador administrador)
         {
             if (ModelState.IsValid)
             {
+                // Verificar si el correo ya existe
+                bool emailExistente = await _context.Administradores
+                    .AnyAsync(a => a.Email == administrador.Email);
+
+                if (emailExistente)
+                {
+                    ModelState.AddModelError("Email", "El correo electrónico ya está registrado.");
+                    // Recargar la lista de administradores para la tabla
+                    ViewBag.Administradores = await _context.Administradores.ToListAsync();
+                    Console.WriteLine("Correo duplicado");
+                    return View(administrador);
+                }
+
                 _context.Add(administrador);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                Console.WriteLine("Administrador guardado");
+                return RedirectToAction(nameof(Create));
             }
+
+            Console.WriteLine("Modelo no válido");
+            foreach (var error in ModelState.Values.SelectMany(v => v.Errors))
+            {
+                Console.WriteLine(error.ErrorMessage);
+            }
+
             return View(administrador);
         }
 
@@ -111,7 +129,7 @@ namespace ClinicaDental.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction(nameof(Create));
             }
             return View(administrador);
         }
@@ -153,5 +171,11 @@ namespace ClinicaDental.Controllers
         {
             return _context.Administradores.Any(e => e.Id == id);
         }
+        // GET: Administradores/GestionDePersonal
+        public IActionResult GestionDePersonal()
+        {
+            return View(); // Esto busca Views/Administradores/GestionDePersonal.cshtml
+        }
     }
+
 }

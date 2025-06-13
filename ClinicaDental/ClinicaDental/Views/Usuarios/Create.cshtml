@@ -24,24 +24,38 @@
             </div>
             <div class="form-group">
                 <label asp-for="RolId" class="control-label"></label>
-                <select asp-for="RolId" class ="form-control" asp-items="ViewBag.RolId"></select>
+                <select asp-for="RolId" class="form-control" asp-items="ViewBag.RolId" id="RolIdSelect"></select>
             </div>
-            <div class="form-group">
+
+            <!-- Contenedores para cada tipo -->
+            <div class="form-group role-dependent" id="PacienteIdContainer">
                 <label asp-for="PacienteId" class="control-label"></label>
-                <select asp-for="PacienteId" class ="form-control" asp-items="ViewBag.PacienteId"></select>
+                <select asp-for="PacienteId" class="form-control" asp-items="ViewBag.PacienteId">
+                    <option value="">-- Ninguno --</option>
+                </select>
             </div>
-            <div class="form-group">
+
+            <div class="form-group role-dependent" id="OdontologoIdContainer">
                 <label asp-for="OdontologoId" class="control-label"></label>
-                <select asp-for="OdontologoId" class ="form-control" asp-items="ViewBag.OdontologoId"></select>
+                <select asp-for="OdontologoId" class="form-control" asp-items="ViewBag.OdontologoId">
+                    <option value="">-- Ninguno --</option>
+                </select>
             </div>
-            <div class="form-group">
+
+            <div class="form-group role-dependent" id="AdministradorIdContainer">
                 <label asp-for="AdministradorId" class="control-label"></label>
-                <select asp-for="AdministradorId" class ="form-control" asp-items="ViewBag.AdministradorId"></select>
+                <select asp-for="AdministradorId" class="form-control" asp-items="ViewBag.AdministradorId">
+                    <option value="">-- Ninguno --</option>
+                </select>
             </div>
-            <div class="form-group">
+
+            <div class="form-group role-dependent" id="RecepcionistaIdContainer">
                 <label asp-for="RecepcionistaId" class="control-label"></label>
-                <select asp-for="RecepcionistaId" class ="form-control" asp-items="ViewBag.RecepcionistaId"></select>
+                <select asp-for="RecepcionistaId" class="form-control" asp-items="ViewBag.RecepcionistaId">
+                    <option value="">-- Ninguno --</option>
+                </select>
             </div>
+
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />
             </div>
@@ -54,5 +68,42 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        
+        // Mapea el ID del rol con el id del contenedor que debe mostrarse
+        const roleMap = {
+            1: 'PacienteIdContainer', 
+            2: 'OdontologoIdContainer',    // Id real del rol Odontologo
+            3: 'AdministradorIdContainer',      // Id real del rol Paciente
+            4: 'RecepcionistaIdContainer'  // Id real del rol Recepcionista
+        };
+
+        function updateRoleDependentFields() {
+            const selectedRoleId = document.getElementById('RolIdSelect').value;
+            // Ocultar todos los contenedores
+            document.querySelectorAll('.role-dependent').forEach(div => {
+                div.style.display = 'none';
+                // Limpiar valor de selects para evitar enviar datos erróneos
+                const select = div.querySelector('select');
+                if (select) select.value = '';
+            });
+
+            // Mostrar solo el que corresponde
+            const containerId = roleMap[selectedRoleId];
+            if (containerId) {
+                const container = document.getElementById(containerId);
+                if (container) {
+                    container.style.display = 'block';
+                }
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            updateRoleDependentFields(); // Al cargar la página
+            document.getElementById('RolIdSelect').addEventListener('change', updateRoleDependentFields);
+        });
+    </script>
 }

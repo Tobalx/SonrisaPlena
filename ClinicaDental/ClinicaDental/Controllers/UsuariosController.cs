@@ -52,10 +52,10 @@ namespace ClinicaDental.Controllers
         // GET: Usuarios/Create
         public IActionResult Create()
         {
-            ViewData["AdministradorId"] = new SelectList(_context.Administradores, "Id", "Nombre");
-            ViewData["OdontologoId"] = new SelectList(_context.Odontologos, "Id", "Nombre");
-            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Nombre");
-            ViewData["RecepcionistaId"] = new SelectList(_context.Recepcionistas, "Id", "Nombre");
+            ViewData["AdministradorId"] = new SelectList(_context.Administradores, "Id", "Email");
+            ViewData["OdontologoId"] = new SelectList(_context.Odontologos, "Id", "Email");
+            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Email");
+            ViewData["RecepcionistaId"] = new SelectList(_context.Recepcionistas, "Id", "Email");
             ViewData["RolId"] = new SelectList(_context.Roles, "Id", "Nombre");
             return View();
         }
@@ -73,11 +73,11 @@ namespace ClinicaDental.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AdministradorId"] = new SelectList(_context.Administradores, "Id", "Nombre", usuario.AdministradorId);
-            ViewData["OdontologoId"] = new SelectList(_context.Odontologos, "Id", "Nombre", usuario.OdontologoId);
-            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Nombre", usuario.PacienteId);
-            ViewData["RecepcionistaId"] = new SelectList(_context.Recepcionistas, "Id", "Nombre", usuario.RecepcionistaId);
-            ViewData["RolId"] = new SelectList(_context.Roles, "Id", "Nombre", usuario.RolId);
+            ViewData["AdministradorId"] = new SelectList(_context.Administradores, "Id", "Email", usuario.AdministradorId);
+            ViewData["OdontologoId"] = new SelectList(_context.Odontologos, "Id", "Email", usuario.OdontologoId);
+            ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Email", usuario.PacienteId);
+            ViewData["RecepcionistaId"] = new SelectList(_context.Recepcionistas, "Id", "Email", usuario.RecepcionistaId);
+            ViewData["RolId"] = new SelectList(_context.Roles, "Id", "Email", usuario.RolId);
             return View(usuario);
         }
 
@@ -134,8 +134,8 @@ namespace ClinicaDental.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["AdministradorId"] = new SelectList(_context.Administradores, "Id", "Nombre", usuario.AdministradorId);
-            ViewData["OdontologoId"] = new SelectList(_context.Odontologos, "Id", "Nombre", usuario.OdontologoId);
+            ViewData["AdministradorId"] = new SelectList(_context.Administradores, "Id", "Email", usuario.AdministradorId);
+            ViewData["OdontologoId"] = new SelectList(_context.Odontologos, "Id", "Email", usuario.OdontologoId);
             ViewData["PacienteId"] = new SelectList(_context.Pacientes, "Id", "Nombre", usuario.PacienteId);
             ViewData["RecepcionistaId"] = new SelectList(_context.Recepcionistas, "Id", "Nombre", usuario.RecepcionistaId);
             ViewData["RolId"] = new SelectList(_context.Roles, "Id", "Nombre", usuario.RolId);

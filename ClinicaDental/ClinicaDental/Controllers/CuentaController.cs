@@ -48,7 +48,7 @@ public class CuentaController : Controller
             }
             else
             {
-                ModelState.AddModelError("", "Usuario o contraseña incorrectos.");
+                ModelState.AddModelError("", "Credenciales Incorrectas o Usuario no Registrado, intente nuevamente o llame a servicio al cliente fono: 777777777.");
             }
         }
 

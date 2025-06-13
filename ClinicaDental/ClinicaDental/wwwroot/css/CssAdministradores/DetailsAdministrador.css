@@ -1,0 +1,58 @@
+﻿/* Card principal */
+.card {
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Etiquetas (dt) */
+dt {
+    font-weight: 600;
+    color: #555;
+}
+
+/* Valores (dd) */
+dd {
+    margin-bottom: 1rem;
+    color: #222;
+}
+
+/* Botones */
+.btn {
+    padding: 0.5rem 1.2rem;
+    font-weight: 500;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+}
+
+.btn-warning {
+    background-color: #f0ad4e;
+    color: white;
+    border: none;
+}
+
+    .btn-warning:hover {
+        background-color: #ec971f;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
