@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ClinicaSonrrisaPlena.Models.Data;
 using ClinicaSonrrisaPlena.Models.Entities;
+using Microsoft.AspNetCore.Authorization;
 
 namespace MVCClinica.Controllers
 {
+    [Authorize(Roles = "Administrador")]
     public class OdontologosController : Controller
     {
         private readonly AppDbContext _context;
@@ -18,6 +20,38 @@ namespace MVCClinica.Controllers
         {
             _context = context;
         }
+
+
+        // GET: Odontologo/CreateDesdeAdmin
+        public IActionResult CreateDesdeAdmin()
+        {
+            return View("Create");
+        }
+
+        // POST: Odontologo/CreateDesdeAdmin
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateDesdeAdmin(Odontologo odontologo)
+        {
+            if (ModelState.IsValid)
+            {
+                odontologo.Rol = "Odontologo"; // Seguridad extra
+                _context.Add(odontologo);
+
+                try
+                {
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Index", "Personas");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Error al guardar el odontólogo: " + ex.Message);
+                }
+            }
+
+            return View("Create", odontologo);
+        }
+        
 
         // GET: Odontologos
         public async Task<IActionResult> Index()

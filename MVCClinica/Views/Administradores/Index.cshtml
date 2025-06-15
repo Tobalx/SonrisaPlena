@@ -4,9 +4,66 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+@{
+    ViewData["Title"] = "Panel de Administrador";
+}
 
-<p>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Panel de Administración</h2>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+        <!-- Módulo: Personas -->
+        <div class="col">
+            <div class="card h-100 shadow-sm border-primary">
+                <div class="card-body text-center">
+                    <h5 class="card-title">👥 Gestión de Personas</h5>
+                    <p class="card-text">Crear, editar y administrar pacientes, odontólogos, recepcionistas y administradores.</p>
+                    <a asp-controller="Personas" asp-action="Index" class="btn btn-primary">Ir al módulo</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo: Tratamientos -->
+        <div class="col">
+            <div class="card h-100 shadow-sm border-success">
+                <div class="card-body text-center">
+                    <h5 class="card-title">💊 Tratamientos</h5>
+                    <p class="card-text">Ver y modificar tratamientos disponibles en la clínica.</p>
+                    <a asp-controller="Tratamientos" asp-action="Index" class="btn btn-success">Ver tratamientos</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo: Turnos -->
+        <div class="col">
+            <div class="card h-100 shadow-sm border-warning">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📅 Turnos</h5>
+                    <p class="card-text">Consultar y administrar los turnos de los pacientes.</p>
+                    <a asp-controller="Turnos" asp-action="Index" class="btn btn-warning text-white">Ver turnos</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Módulo: Historial de Tratamientos -->
+        <div class="col">
+            <div class="card h-100 shadow-sm border-info">
+                <div class="card-body text-center">
+                    <h5 class="card-title">📋 Historial de Tratamientos</h5>
+                    <p class="card-text">Revisar el historial de tratamientos realizados a los pacientes.</p>
+                    <a asp-controller="HistorialTratamientos" asp-action="Index" class="btn btn-info text-white">Ver historial</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+@* <h1>Index</h1>
+ *@
+@* <p>
     <a asp-action="Create">Create New</a>
 </p>
 <table class="table">
@@ -57,3 +114,4 @@
 }
     </tbody>
 </table>
+ *@

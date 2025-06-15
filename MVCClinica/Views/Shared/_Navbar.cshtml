@@ -32,19 +32,24 @@
                     <li><a asp-controller="Turnos" asp-action="Create" class="nav-link px-2 link-dark">Crear Turno</a></li>
                 }
 
-                <li><a href="/Auth/Logout" class="nav-link px-2 text-danger">Cerrar sesión</a></li>
+                
             }
-            else
-            {
-                <li><a href="/Auth/Login" class="nav-link px-2 link-dark">Login</a></li>
-                <li><a href="#" class="nav-link px-2 link-dark">Registrarse</a></li>
-            }
-        </ul>
 
+        </ul>
+        @if (user.Identity.IsAuthenticated)
+        {
+            <div class="col-md-3 text-end">
+                <a href="/Auth/Logout" class="btn btn-danger">Cerrar sesión</a>
+            </div>
+        }
+        else 
+        {
         <div class="col-md-3 text-end">
-            <a asp-area="" asp-controller="Auth" asp-action="Login" class="btn btn-outline-primary me-2">Login</a>
-            <a asp-area="" asp-controller="Auth" asp-action="Register" class="btn btn-primary">Sign-up</a>
+            <a asp-area="" asp-controller="Auth" asp-action="Login" class="btn btn-outline-primary me-2">Iniciar seccion</a>
+            <a asp-area="" asp-controller="Pacientes" asp-action="Create" class="btn btn-primary">Registrarse</a>
         </div>
+        }
+        
     </header>
 </div>
 

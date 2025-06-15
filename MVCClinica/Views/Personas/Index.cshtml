@@ -1,0 +1,117 @@
+﻿@model IEnumerable<ClinicaSonrrisaPlena.Models.Entities.Persona>
+
+@{
+    ViewData["Title"] = "Listado de Personas";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">Gestión de Personas</h2>
+
+    <form method="get" class="row g-3 mb-4">
+        <div class="col-md-6">
+            <input type="text" name="searchNombre" value="@Context.Request.Query["searchNombre"]" class="form-control" placeholder="Buscar por nombre..." />
+        </div>
+        <div class="col-md-4">
+            <select name="rolFiltro" class="form-select">
+                <option value="">Todos los roles</option>
+                @foreach (var rol in ViewBag.Roles as SelectList)
+                {
+                    <option value="@rol.Text" selected="@(Context.Request.Query["rolFiltro"] == rol.Text)">
+                        @rol.Text
+                    </option>
+                }
+            </select>
+        </div>
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary w-100">Buscar</button>
+        </div>
+    </form>
+
+    <div class="dropdown mb-3">
+        <button class="btn btn-success dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            ➕ Crear nueva persona
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" asp-controller="Pacientes" asp-action="CreateDesdeAdmin">Paciente</a></li>
+            <li><a class="dropdown-item" asp-controller="Odontologos" asp-action="CreateDesdeAdmin">Odontólogo</a></li>
+            <li><a class="dropdown-item" asp-controller="Recepcionistas" asp-action="CreateDesdeAdmin">Recepcionista</a></li>
+            <li><a class="dropdown-item" asp-controller="Administradores" asp-action="CreateDesdeAdmin">Administrador</a></li>
+        </ul>
+    </div>
+
+    <table class="table table-bordered table-striped shadow-sm">
+        <thead class="table-dark text-center">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.First().Nombre)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Email)</th>
+                <th>@Html.DisplayNameFor(model => model.First().Rol)</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        {
+            <tr class="align-middle text-center">
+                <td>@Html.DisplayFor(modelItem => item.Nombre)</td>
+                <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                <td>@Html.DisplayFor(modelItem => item.Rol)</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-sm btn-warning">✏️ Editar</a>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-sm btn-info text-white">🔍 Detalles</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-sm btn-danger">🗑️ Eliminar</a>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
+
+
+@* <h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Clave)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rol)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Clave)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rol)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+ *@

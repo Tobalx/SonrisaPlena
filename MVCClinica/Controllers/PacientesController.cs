@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using ClinicaSonrrisaPlena.Models.Data;
 using ClinicaSonrrisaPlena.Models.Entities;
+using Microsoft.AspNetCore.Identity;
 
 namespace MVCClinica.Controllers
 {
@@ -43,6 +44,33 @@ namespace MVCClinica.Controllers
             return View(paciente);
         }
 
+        public IActionResult CreateDesdeAdmin()
+        {
+            return View("Create");
+        }
+
+        // POST
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateDesdeAdmin(Paciente paciente)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(paciente);
+
+                try
+                {
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Index", "Personas");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Error al guardar el paciente: " + ex.Message);
+                }
+            }
+            return View("Create", paciente);
+        }
+
         // GET: Pacientes/Create
         public IActionResult Create()
         {
@@ -52,18 +80,37 @@ namespace MVCClinica.Controllers
         // POST: Pacientes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("RUT,Telefono,Direccion,Id,Nombre,Email")] Paciente paciente)
+        public async Task<IActionResult> Create(Paciente paciente)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(paciente);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                try
+                {
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Index", "Home");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Error al guardar el paciente: " + ex.Message);
+                }
+            }
+            else
+            {
+                var errors = ModelState.Values.SelectMany(v => v.Errors);
+                foreach (var error in errors)
+                {
+                    Console.WriteLine(error.ErrorMessage);
+                }
             }
             return View(paciente);
         }
+
 
         // GET: Pacientes/Edit/5
         public async Task<IActionResult> Edit(int? id)

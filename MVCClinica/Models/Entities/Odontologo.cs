@@ -2,6 +2,10 @@
 {
     public class Odontologo: Persona
     {
+        public Odontologo()
+        {
+            Rol = "Odontologo";
+        }
         public string Matricula { get; set; }
         public string Especialidad { get; set; }
 

@@ -2,6 +2,10 @@
 {
     public class Paciente : Persona
     {
+        public Paciente()
+        {
+            Rol = "Paciente";
+        }
         public string RUT { get; set; }
         public string Telefono { get; set; }
         public string Direccion { get; set; }

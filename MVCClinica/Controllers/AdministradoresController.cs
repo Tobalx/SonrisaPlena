@@ -22,6 +22,37 @@ namespace MVCClinica.Controllers
             _context = context;
         }
 
+        // GET: Administrador/CreateDesdeAdmin
+        public IActionResult CreateDesdeAdmin()
+        {
+            return View("Create");
+        }
+
+        // POST: Administrador/CreateDesdeAdmin
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> CreateDesdeAdmin(Administrador administrador)
+        {
+            if (ModelState.IsValid)
+            {
+                administrador.Rol = "Administrador"; // Seguridad extra
+                _context.Add(administrador);
+
+                try
+                {
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction("Index", "Personas");
+                }
+                catch (Exception ex)
+                {
+                    ModelState.AddModelError("", "Error al guardar el administrador: " + ex.Message);
+                }
+            }
+
+            return View("Create", administrador);
+        }
+
+
         // GET: Administradores
         public async Task<IActionResult> Index()
         {

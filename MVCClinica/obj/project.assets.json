@@ -7759,23 +7759,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\cristobalO.O\\.nuget\\packages\\": {},
+    "C:\\Users\\mariv\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cristobalO.O\\Desktop\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
+      "projectUniqueName": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
       "projectName": "MVCClinica",
-      "projectPath": "C:\\Users\\cristobalO.O\\Desktop\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
-      "packagesPath": "C:\\Users\\cristobalO.O\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cristobalO.O\\Desktop\\SonrisaPlena\\MVCClinica\\obj\\",
+      "projectPath": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
+      "packagesPath": "C:\\Users\\mariv\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\cristobalO.O\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mariv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7802,7 +7802,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -7852,7 +7852,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
