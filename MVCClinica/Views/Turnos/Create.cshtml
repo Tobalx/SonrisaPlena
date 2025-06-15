@@ -47,16 +47,44 @@
                 <select asp-for="IdOdontologo" class="form-control" asp-items="@(ViewData["IdOdontologo"] as SelectList)"></select>
                 <span asp-validation-for="IdOdontologo" class="text-danger"></span>
             </div>
+            @*
+                verificar esto que es   ver el boton de  guardar que cambie  de  rol  cuando sea paciente vaya a  home y cuando sea  odontologo
+                sea  a lista que ya  tiene que ver sus turnos 
+            *@
+            @{
+                var rol = User.IsInRole("Paciente") ? "Paciente" : (User.IsInRole("Odontologo") ? "Odontologo" : "Otro");
+            }
+            <script>
+                function redirigirSegunRol() {
+                    var rol = '@rol';
+
+                    if (rol === 'Paciente') {
+                        window.location.href = '/Home/Index';
+                    } else if (rol === 'Odontologo') {
+                        window.location.href = '/Turno/ListaTurnos';
+                    } else {
+                        window.location.href = '/Home/Index';
+                    }
+                }
+            </script>
 
             <div class="form-group mt-3">
-                <input type="submit" value="Guardar Turno" class="btn btn-primary" />
+                <input type="submit" value="Guardar Turno" class="btn btn-primary" onclick="redirigirSegunRol()" />
             </div>
         </form>
     </div>
 </div>
 
 <div class="mt-3">
-    <a asp-action="Index">Volver a la lista</a>
+    @if (User.IsInRole("Odontologo"))
+    {
+        <a asp-action="Index">Volver a la lista</a>
+    }
+    else if (User.IsInRole("Paciente"))
+    {
+        <!-- Enlace para pacientes que redirige a Home/Index -->
+        <a asp-controller="Home" asp-action="Index">Volver al Inicio</a>
+    }
 </div>
 
 @section Scripts {

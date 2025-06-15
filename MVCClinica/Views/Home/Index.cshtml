@@ -2,7 +2,76 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="container py-5">
+    <!-- Hero principal -->
+    <div class="row align-items-center mb-5">
+        <div class="col-md-6">
+            <h1 class="display-4 fw-bold">Bienvenido a Clínica Sonrisa Plena</h1>
+            <p class="lead">Tu salud bucal en manos de profesionales. Atención personalizada, tecnología de punta y un trato humano.</p>
+            <a href="/Auth/Login" class="btn btn-primary btn-lg mt-3">Agenda tu cita</a>
+        </div>
+        <div class="col-md-6 text-center">
+            <img src="https://img.freepik.com/foto-gratis/mujer-sonriente-consultorio-dental_23-2149455656.jpg" alt="Sonrisa Plena" class="img-fluid rounded shadow">
+        </div>
+    </div>
+
+    <!-- Servicios -->
+    <div class="text-center mb-5">
+        <h2 class="fw-bold mb-4">Nuestros Servicios</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Ortodoncia</h5>
+                        <p class="card-text">Corrige la posición de tus dientes con nuestros tratamientos de ortodoncia personalizados.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Implantes Dentales</h5>
+                        <p class="card-text">Recupera tu sonrisa con implantes seguros y estéticos realizados por especialistas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Limpiezas y Blanqueamiento</h5>
+                        <p class="card-text">Mantén tus dientes sanos y relucientes con nuestros tratamientos preventivos y estéticos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Equipo -->
+    <div class="mb-5">
+        <h2 class="fw-bold text-center mb-4">Nuestro Equipo</h2>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="rounded-circle mb-2" width="120" />
+                <h6>Dra. Camila Reyes</h6>
+                <p>Ortodoncia y estética dental</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" class="rounded-circle mb-2" width="120" />
+                <h6>Dr. Andrés Muñoz</h6>
+                <p>Implantología y cirugía oral</p>
+            </div>
+            <div class="col-md-4">
+                <img src="https://randomuser.me/api/portraits/women/68.jpg" class="rounded-circle mb-2" width="120" />
+                <h6>Dra. Valentina Soto</h6>
+                <p>Odontopediatría</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div class="bg-primary text-white text-center p-5 rounded">
+        <h3 class="mb-3">¿Listo para sonreír sin preocupaciones?</h3>
+        <p class="mb-4">Agenda tu consulta hoy mismo y déjanos cuidar de tu sonrisa.</p>
+        <a href="/Auth/Login" class="btn btn-light btn-lg">Iniciar Sesión</a>
+    </div>
 </div>

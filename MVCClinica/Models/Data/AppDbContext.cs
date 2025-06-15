@@ -24,8 +24,8 @@ namespace ClinicaSonrrisaPlena.Models.Data
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Persona>().UseTptMappingStrategy();
             modelBuilder.Entity<Persona>().HasKey(p => p.Id);
-
             modelBuilder.Entity<Persona>().ToTable("Personas");
+
             modelBuilder.Entity<Odontologo>().ToTable("Odontologos");
             modelBuilder.Entity<Paciente>().ToTable("Pacientes");
             modelBuilder.Entity<Recepcionista>().ToTable("Recepcionistas");

@@ -1,7 +1,8 @@
-﻿
-@*
-    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@inject IHttpContextAccessor HttpContextAccessor
+
+@{
+    var user = HttpContextAccessor.HttpContext.User;
+}
 
 <div class="container">
     <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
@@ -10,10 +11,34 @@
         </a>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a asp-controller="Home" asp-action="Index" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a asp-controller="Turnos" asp-action="Index" class="nav-link px-2 link-dark">Turnos</a></li>
-            <li><a asp-controller="Pacientes" asp-action="Index" class="nav-link px-2 link-dark">Pacientes</a></li>
-            <li><a asp-controller="Odontologos" asp-action="Index" class="nav-link px-2 link-dark">Odontólogos</a></li>
+            <li><a href="/" class="nav-link px-2 link-dark">Inicio</a></li>
+
+            @if (user.Identity.IsAuthenticated)
+            {
+                if (user.IsInRole("Administrador"))
+                {
+                    <li><a href="/Administradores" class="nav-link px-2 link-dark">Panel Admin</a></li>
+                }
+                if (user.IsInRole("Odontologo"))
+                {
+                    <li><a href="/Turnos" class="nav-link px-2 link-dark">Mis Turnos</a></li>
+                }
+                if (user.IsInRole("Recepcionista"))
+                {
+                    <li><a href="/Pacientes" class="nav-link px-2 link-dark">Pacientes</a></li>
+                }
+                @if (User.IsInRole("Paciente"))
+                {
+                    <li><a asp-controller="Turnos" asp-action="Create" class="nav-link px-2 link-dark">Crear Turno</a></li>
+                }
+
+                <li><a href="/Auth/Logout" class="nav-link px-2 text-danger">Cerrar sesión</a></li>
+            }
+            else
+            {
+                <li><a href="/Auth/Login" class="nav-link px-2 link-dark">Login</a></li>
+                <li><a href="#" class="nav-link px-2 link-dark">Registrarse</a></li>
+            }
         </ul>
 
         <div class="col-md-3 text-end">
@@ -22,3 +47,6 @@
         </div>
     </header>
 </div>
+
+
+

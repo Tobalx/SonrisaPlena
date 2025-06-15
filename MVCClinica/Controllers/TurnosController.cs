@@ -61,7 +61,7 @@ namespace MVCClinica.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FechaHora,Duracion,Estado,IdOdontologo")] Turno turno,string pacienteRut) 
+        public async Task<IActionResult> Create([Bind("FechaHora,Duracion,Estado,IdOdontologo")] Turno turno, string pacienteRut)
         {
             if (ModelState.IsValid)
             {
@@ -89,33 +89,42 @@ namespace MVCClinica.Controllers
         }
 
         // GET: Turnos/Edit/5
+        [HttpGet("Turnos/Edit/{id}")]
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
+            if (id == null) return NotFound();
 
             var turno = await _context.Turnos.FindAsync(id);
-            if (turno == null)
-            {
-                return NotFound();
-            }
-            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Id", turno.IdOdontologo);
-            ViewData["IdPaciente"] = new SelectList(_context.Pacientes, "Id", "Id", turno.IdPaciente);
+            if (turno == null) return NotFound();
+
+            var paciente = await _context.Pacientes.FindAsync(turno.IdPaciente);
+            ViewData["PacienteRUT"] = paciente?.RUT;
+            ViewData["Pacientes"] = _context.Pacientes.ToList();
+            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Nombre", turno.IdOdontologo);
+
             return View(turno);
         }
 
         // POST: Turnos/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost("Turnos/Edit/{id}")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdTurno,FechaHora,Duracion,Estado,IdPaciente,IdOdontologo")] Turno turno)
+        public async Task<IActionResult> Edit(int id, [Bind("IdTurno,FechaHora,Duracion,Estado,IdPaciente,IdOdontologo")] Turno turno, string PacienteRut)
         {
-            if (id != turno.IdTurno)
+            if (id != turno.IdTurno) return NotFound();
+
+            if (!string.IsNullOrEmpty(PacienteRut))
             {
-                return NotFound();
+                var paciente = await _context.Pacientes.FirstOrDefaultAsync(p => p.RUT == PacienteRut);
+                if (paciente != null)
+                {
+                    turno.IdPaciente = paciente.Id;
+                }
+                else
+                {
+                    ModelState.AddModelError("PacienteRut", "No se encontró un paciente con ese RUT.");
+                }
             }
 
             if (ModelState.IsValid)
@@ -127,19 +136,15 @@ namespace MVCClinica.Controllers
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!TurnoExists(turno.IdTurno))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    if (!TurnoExists(turno.IdTurno)) return NotFound();
+                    else throw;
                 }
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Id", turno.IdOdontologo);
-            ViewData["IdPaciente"] = new SelectList(_context.Pacientes, "Id", "Id", turno.IdPaciente);
+
+            ViewData["PacienteRUT"] = PacienteRut;
+            ViewData["Pacientes"] = _context.Pacientes.ToList();
+            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Nombre", turno.IdOdontologo);
             return View(turno);
         }
 
