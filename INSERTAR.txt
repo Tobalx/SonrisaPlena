@@ -1,0 +1,76 @@
+-- ===== INSERTAR PERSONAS =====
+INSERT INTO Personas (Nombre, Email, Clave, Rol) VALUES
+('laura', 'laura11@gmail.com', '123', 'Administrador'),
+('admin2', 'admin2@gmail.com', 'claveadmin', 'Administrador'),
+('admin3', 'admin3@gmail.com', 'claveadmin3', 'Administrador'),
+('cristobal', 'cristobal14@gmail.com', 'clave123', 'Paciente'),
+('hilary', 'hilary15@gmail.com', 'clave123', 'Paciente'),
+('lucas', 'lucas16@gmail.com', 'clave123', 'Paciente'),
+('mariv', 'mariv17@gmail.com', 'clave', 'Odontologo'),
+('odonto2', 'odonto218@gmail.com', 'claveodonto2', 'Odontologo'),
+('cris', 'cris19@gmail.com', '1', 'Recepcionista');
+
+
+///////////////////////////////////////////////////////////////
+Verifiquen  en MySQL  que este  las id  bien en 
+personas si no tocara cambiarlo a mano 
+
+///////////////////////////////////////////////////////////////
+
+-- ========== ADMINISTRADORES ==========
+
+INSERT INTO Administradores (Id, RolDescripcion) VALUES
+(1, 'Administrador general'),
+(2, 'Administrador de agenda'),
+(3, 'Administrador de usuarios');
+
+
+-- ========== ODONTÓLOGOS ==========
+
+INSERT INTO Odontologos (Id, Matricula, Especialidad) VALUES
+(7, 'MAT1001', 'Ortodoncia'),
+(8, 'MAT1002', 'Endodoncia');
+
+
+-- ========== RECEPCIONISTA ==========
+
+INSERT INTO Recepcionistas (Id, Interno) VALUES
+(9, 'INT001');
+
+
+-- ========== PACIENTES ==========
+
+INSERT INTO Pacientes (Id, RUT, Telefono, Direccion) VALUES
+(4, '12345678-9', '+56911111111', 'Calle 1 #123'),
+(5, '98765432-1', '+56922222222', 'Calle 2 #456'),
+(6, '11223344-5', '+56933333333', 'Calle 3 #789');
+
+
+-- ========== TRATAMIENTOS ==========
+INSERT INTO Tratamientos (Nombre, Descripcion, PrecioEstimado) VALUES
+('Limpieza dental', 'Limpieza profesional y pulido de dientes', 25000),
+('Carilla estética', 'Colocación de carilla de porcelana', 120000);
+
+-- ========== PLANES ==========
+INSERT INTO Planes (FechaCreacion, ObservacionesGenerales, IdPaciente, IdOdontologo) VALUES
+('2025-06-01', 'Tratamiento completo', 4, 7),
+('2025-06-05', 'Solo control', 5, 7),
+('2025-06-10', 'Ortodoncia anual', 6, 8);
+
+-- ========== PASOS ==========
+INSERT INTO Pasos (FechaEstimada, Estado, Observaciones, IdPlan, IdTratamiento) VALUES
+('2025-06-03', 'Pendiente', 'Primera sesión', 1, 1),
+('2025-06-07', 'Pendiente', 'Radiografía previa', 2, 1),
+('2025-06-15', 'Pendiente', 'Evaluación final', 3, 2);
+
+-- ========== TURNOS ==========
+INSERT INTO Turnos (FechaHora, Duracion, Estado, IdPaciente, IdOdontologo) VALUES
+('2025-06-16 10:00:00', 30, 'Reservado', 4, 7),
+('2025-06-17 15:00:00', 45, 'Reservado', 5, 7),
+('2025-06-18 09:30:00', 60, 'Reservado', 6, 8);
+
+-- ========== HISTORIALES ==========
+INSERT INTO Historiales (Fecha, Observaciones, IdPaciente, IdTratamiento, IdOdontologo) VALUES
+('2025-06-02', 'Paciente respondió bien al tratamiento.', 4, 1, 7),
+('2025-06-06', 'Paciente ausente, se reagendó.', 5, 1, 7),
+('2025-06-12', 'Se completó la colocación de carilla.', 6, 2, 8);
