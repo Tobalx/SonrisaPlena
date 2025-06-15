@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVCClinica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c0f9741e609b940a364bc010bd3546c3870d610")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3389753dd48e5e76a1dea5e0732f4849b9bfac2b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVCClinica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVCClinica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

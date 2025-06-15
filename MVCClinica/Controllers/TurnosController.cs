@@ -47,10 +47,12 @@ namespace MVCClinica.Controllers
         }
 
         // GET: Turnos/Create
+        [HttpGet]
         public IActionResult Create()
         {
-            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Id");
-            ViewData["IdPaciente"] = new SelectList(_context.Pacientes, "Id", "Id");
+            ViewData["Pacientes"] = _context.Pacientes.ToList();
+            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Nombre");
+
             return View();
         }
 
@@ -59,16 +61,30 @@ namespace MVCClinica.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdTurno,FechaHora,Duracion,Estado,IdPaciente,IdOdontologo")] Turno turno)
+        public async Task<IActionResult> Create([Bind("FechaHora,Duracion,Estado,IdOdontologo")] Turno turno,string pacienteRut) 
         {
             if (ModelState.IsValid)
             {
+                var paciente = await _context.Pacientes.FirstOrDefaultAsync(p => p.RUT == pacienteRut);
+
+                if (paciente == null)
+                {
+                    ModelState.AddModelError("PacienteRut", "Paciente no encontrado con ese RUT.");
+                    // Recargar select lists
+                    ViewData["Pacientes"] = _context.Pacientes.ToList();
+                    ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Nombre", turno.IdOdontologo);
+                    return View(turno);
+                }
+
+                turno.IdPaciente = paciente.Id;
+
                 _context.Add(turno);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Id", turno.IdOdontologo);
-            ViewData["IdPaciente"] = new SelectList(_context.Pacientes, "Id", "Id", turno.IdPaciente);
+
+            ViewData["Pacientes"] = _context.Pacientes.ToList();
+            ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Nombre", turno.IdOdontologo);
             return View(turno);
         }
 
