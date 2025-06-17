@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj": {}
+    "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj": {
+    "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
         "projectName": "MVCClinica",
-        "projectPath": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
-        "packagesPath": "C:\\Users\\mariv\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\obj\\",
+        "projectPath": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\MVCClinica.csproj",
+        "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\mariv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\leona\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,7 +44,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.200"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net8.0": {
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

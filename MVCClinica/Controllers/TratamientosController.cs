@@ -58,12 +58,24 @@ namespace MVCClinica.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Add(tratamiento);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                try
+                {
+                    _context.Add(tratamiento);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+                catch (Exception ex)
+                {
+                    // Puedes registrar el error si tienes un sistema de logging
+                    ModelState.AddModelError(string.Empty, "Ocurrió un error al guardar el tratamiento. Inténtalo nuevamente.");
+                    // También puedes mostrar el mensaje real del error (solo en desarrollo)
+                    // ModelState.AddModelError(string.Empty, ex.Message);
+                }
             }
+
             return View(tratamiento);
         }
+
 
         // GET: Tratamientos/Edit/5
         public async Task<IActionResult> Edit(int? id)

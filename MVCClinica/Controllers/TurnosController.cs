@@ -70,7 +70,6 @@ namespace MVCClinica.Controllers
                 if (paciente == null)
                 {
                     ModelState.AddModelError("PacienteRut", "Paciente no encontrado con ese RUT.");
-                    // Recargar select lists
                     ViewData["Pacientes"] = _context.Pacientes.ToList();
                     ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Nombre", turno.IdOdontologo);
                     return View(turno);
@@ -80,9 +79,23 @@ namespace MVCClinica.Controllers
 
                 _context.Add(turno);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+
+                // 🔁 Redirección según el rol
+                if (User.IsInRole("Paciente"))
+                {
+                    return RedirectToAction("Index", "Home");
+                }
+                else if (User.IsInRole("Odontologo"))
+                {
+                    return RedirectToAction("ListaTurnos", "Turnos");
+                }
+                else
+                {
+                    return RedirectToAction(nameof(Index));
+                }
             }
 
+            // Si hay errores, recargar datos para la vista
             ViewData["Pacientes"] = _context.Pacientes.ToList();
             ViewData["IdOdontologo"] = new SelectList(_context.Odontologos, "Id", "Nombre", turno.IdOdontologo);
             return View(turno);

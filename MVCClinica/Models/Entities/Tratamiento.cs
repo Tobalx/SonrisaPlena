@@ -12,9 +12,8 @@ namespace ClinicaSonrrisaPlena.Models.Entities
         
         [Precision(10, 2)]
         public decimal PrecioEstimado { get; set; }
-
-        public ICollection<HistorialTratamiento> Historiales { get; set; }
-        public ICollection<PasoPlan> Pasos { get; set; }
+        public ICollection<HistorialTratamiento> Historiales { get; set; } = new List<HistorialTratamiento>();
+        public ICollection<PasoPlan> Pasos { get; set; } = new List<PasoPlan>();
 
     }
 }

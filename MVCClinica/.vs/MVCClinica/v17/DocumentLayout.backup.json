@@ -1,58 +1,106 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\",
+  "WorkspaceRootPath": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\pacientescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\turnoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\controllers\\odontologoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\odontologoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\models\\entities\\tratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:models\\entities\\tratamiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\controllers\\administradorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\administradorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\turnos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\turnos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\models\\entities\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:models\\entities\\odontologo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\pacientes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\views\\odontologos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\odontologos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\pacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\pacientes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\views\\administradores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\administradores\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\pacientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\pacientes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\views\\recepcionistas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\recepcionistas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\models\\entities\\recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:models\\entities\\recepcionista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:models\\entities\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\models\\entities\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:models\\entities\\administrador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\pacientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\views\\personas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\personas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\pacientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\mariv\\desktop\\dentista\\sonrisaplena\\mvcclinica\\controllers\\recepcionistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\controllers\\recepcionistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\recepcionistascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\turnos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\turnos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\turnos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\turnos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\turnos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\turnos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\tratamientos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\tratamientos\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\tratamientos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\tratamientos\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\tratamientos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\tratamientos\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\tratamientos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\tratamientos\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\controllers\\administradorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\administradorescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:controllers\\tratamientoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\tratamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\tratamientos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\turnos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\turnos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|c:\\users\\leona\\onedrive\\desktop\\clinica dental\\sonrisaplena\\mvcclinica\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{65FD94E4-886C-4148-AAA3-12E522E3606E}|MVCClinica.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,176 +110,346 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "PacientesController.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\PacientesController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PacientesController.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\PacientesController.cs",
-              "RelativeToolTip": "Controllers\\PacientesController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Title": "TurnosController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\TurnosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TurnosController.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\TurnosController.cs",
+              "RelativeToolTip": "Controllers\\TurnosController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAkwL4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:25:03.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Odontologos\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Odontologos\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Odontologos\\Create.cshtml",
-              "RelativeToolTip": "Views\\Odontologos\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T19:13:35.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Administradores\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Administradores\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Administradores\\Create.cshtml",
-              "RelativeToolTip": "Views\\Administradores\\Create.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T19:13:09.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Persona.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Persona.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Persona.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Persona.cs",
-              "RelativeToolTip": "Models\\Entities\\Persona.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:12:22.813Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Pacientes\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Create.cshtml",
-              "RelativeToolTip": "Views\\Pacientes\\Create.cshtml",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAADMAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T19:11:11.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RecepcionistasController.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\RecepcionistasController.cs",
-              "RelativeDocumentMoniker": "Controllers\\RecepcionistasController.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\RecepcionistasController.cs",
-              "RelativeToolTip": "Controllers\\RecepcionistasController.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAswDoAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:08:27.815Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Recepcionista.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Recepcionista.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Recepcionista.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Recepcionista.cs",
-              "RelativeToolTip": "Models\\Entities\\Recepcionista.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:07:37.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OdontologosController.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\OdontologosController.cs",
-              "RelativeDocumentMoniker": "Controllers\\OdontologosController.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\OdontologosController.cs",
-              "RelativeToolTip": "Controllers\\OdontologosController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:06:09.163Z",
+              "WhenOpened": "2025-06-17T03:04:24.559Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Odontologo.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Odontologo.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Odontologo.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Odontologo.cs",
-              "RelativeToolTip": "Models\\Entities\\Odontologo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:04:58.625Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Edit.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAgwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:57:48.157Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AdministradoresController.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\AdministradoresController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AdministradoresController.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Controllers\\AdministradoresController.cs",
-              "RelativeToolTip": "Controllers\\AdministradoresController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:04:24.865Z",
+              "DocumentIndex": 4,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Details.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:57:48.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:56:58.482Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Recepcionistas\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Recepcionistas\\Create.cshtml",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Recepcionistas\\Create.cshtml",
-              "RelativeToolTip": "Views\\Recepcionistas\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAASAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Create.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Create.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T19:16:18.745Z",
+              "WhenOpened": "2025-06-17T02:56:21.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pacientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Pacientes\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pacientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:55:38.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecepcionistasController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\RecepcionistasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RecepcionistasController.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\RecepcionistasController.cs",
+              "RelativeToolTip": "Controllers\\RecepcionistasController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:40:48.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "Administrador.cs",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Administrador.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\Administrador.cs",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Administrador.cs",
-              "RelativeToolTip": "Models\\Entities\\Administrador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBwAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-15T19:04:21.352Z",
+              "WhenOpened": "2025-06-17T02:39:12.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:38:57.126Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Personas\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Personas\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mariv\\Desktop\\dentista\\SonrisaPlena\\MVCClinica\\Views\\Personas\\Index.cshtml",
-              "RelativeToolTip": "Views\\Personas\\Index.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAKAAAAAAAAAA==",
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Turnos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Turnos\\Delete.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-15T19:03:20.208Z",
+              "WhenOpened": "2025-06-17T02:32:46.94Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Turnos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Details.cshtml",
+              "RelativeToolTip": "Views\\Turnos\\Details.cshtml",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:32:04.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Turnos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Turnos\\Edit.cshtml",
+              "ViewState": "AgIAACgAAAAAAAAAAAAAwEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:30:55.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientos\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Tratamientos\\Delete.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:29:17.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientos\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Tratamientos\\Edit.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:27:39.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientos\\Details.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Details.cshtml",
+              "RelativeToolTip": "Views\\Tratamientos\\Details.cshtml",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:27:38.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tratamiento.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Tratamiento.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\Tratamiento.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Models\\Entities\\Tratamiento.cs",
+              "RelativeToolTip": "Models\\Entities\\Tratamiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:16:34.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdministradoresController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\AdministradoresController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdministradoresController.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\AdministradoresController.cs",
+              "RelativeToolTip": "Controllers\\AdministradoresController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:15:53.412Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TratamientosController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\TratamientosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TratamientosController.cs",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Controllers\\TratamientosController.cs",
+              "RelativeToolTip": "Controllers\\TratamientosController.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-17T02:14:29.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Tratamientos\\Create.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T02:12:00.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Tratamientos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Tratamientos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Tratamientos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:52:15.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Turnos\\Create.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Create.cshtml",
+              "RelativeToolTip": "Views\\Turnos\\Create.cshtml",
+              "ViewState": "AgIAACwAAAAAAAAAAAAkwFsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:47:47.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:43:12.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:43:11.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Turnos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Turnos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Turnos\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T01:37:49.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\leona\\OneDrive\\Desktop\\clinica dental\\SonrisaPlena\\MVCClinica\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAC4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-17T00:44:45.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 491,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }
