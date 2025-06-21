@@ -3,7 +3,7 @@
 **Nombres:**
 Hilary Varela, 
 Cristobal Martinez, 
-Leo..
+Leonardo Miranda
 
 **Sonrisa Plena** es una aplicación web desarrollada con ASP.NET Core MVC y Entity Framework Core que permite 
 la gestión integral de una clínica dental. Incluye módulos para pacientes, odontólogos, recepcionistas y
